@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #152958;
+}
+body {
+    position: relative;
+    margin: 0 auto;
+    width: 1415px;
+    height: 2100px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color:#152958;
+    background-color: rgb(213, 218, 223);
+    border-radius: 50%;
+}
+
+
+.header {
+    position: relative;
+    width: 1405px;
+    height: 100px;
+    background-color: #323763;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    padding: 5px 20px;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .3s; 
+    list-style: none; 
+}
+
+.nav-link  {
+    color: rgb(122, 117, 117);
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.aside {
+    position: absolute;
+    top: 125px;
+    width: 550px;
+    height: 1890px;
+    background-color: #55587a;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    width: 550px;
+    height: 1000px;
+}
+
+.ava {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height: 1300x;
+    width: 1300px;
+    object-fit:cover;
+}
+
+.contacts {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 200px 50px;
+    width: 450px;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+}
+
+.contacts-list {
+    list-style-type: none;
+}
+
+.main {
+    position: absolute;
+    top: 105px;
+    right: 0px;
+    height: 1880px;
+    width: 850px;
+}
+
+.info-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 5px 5px;
+    margin-left: 20px;
+    margin-top: 100px;
+    width: 800px;
+    height: 1350px;
+    font-family: Mukta;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 1;
+    color:#152958;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    bottom: 0px;
+    height: 100px;
+    width: 1405px;
+    font-size: 14px;
+    color: white;
+    background-color: #323763;
+}
+
+.rs-scoole {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+.github {
+    margin: 35px 35px;
+    width: 40px;
+    height: 40px;
+}
+
+.underline-title {
+    position: relative;
+  }
+.underline-title::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 100%;;
+    height: 10px;
+    background-color: #30335c;
+  }
+
+  h3 {
+      margin: 0px;
+      padding: 0px;
+  }
+
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.courses-list {
+    margin: 0px;
+}
+
+
+.courses-list-color:hover {
+    color: white;
+}
+
+.main-git {
+    margin: -65px 80px;
+}
