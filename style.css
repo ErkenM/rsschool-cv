@@ -10,7 +10,7 @@ body {
     position: relative;
     margin: 0 auto;
     width: 1415px;
-    height: 2100px;
+    height: 2520px;
     font-family: Mukta;
     font-style: normal;
     font-weight: 400;
@@ -52,7 +52,7 @@ body {
     position: absolute;
     top: 125px;
     width: 550px;
-    height: 1890px;
+    height: 2300px;
     background-color: #55587a;
 }
 
@@ -110,7 +110,7 @@ body {
     font-family: Mukta;
     font-style: normal;
     font-size: 34px;
-    line-height: 1;
+    line-height: 1.1;
     color:#152958;
 }
 
@@ -176,7 +176,13 @@ body {
     margin: 0px;
 }
 
-
+.code {
+    font-family: Mukta;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 1;
+    color:#152958;   
+}
 .courses-list-color:hover {
     color: white;
 }
