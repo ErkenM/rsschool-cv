@@ -1,23 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
     
-<head>
-    <meta charset="UTF-8">
+    <head>
+        <meta charset="UTF-8">
+          
+        <title>CV</title>
+    
       
-    <title>CV</title>
-</head>
-
-<body>
-    <header> 
-
-    </header>
-    <aside>
-
-    </aside>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
-</body>
+        <link rel="stylesheet" href="style.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com ">
+        <link rel="preconnect" href="https://fonts.gstatic.com " crossorigin>
+        <link href="https://fonts.googleapis.com/css2 ?family=Mukta&family=Roboto:wght@100&display=swap" rel="таблица стилей">
+    
+        <script src="https://kit.fontawesome.com/20e34c4eba.js" crossorigin="anonymous"></script>
+    
+    
+        
+    
+    
+    </head>
+    
+    <body>
+        <header class="header"> 
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>  
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                  
+                </ul>
+              </nav>
+    
+        </header>
+        
+        <aside class="aside">
+            <div class="box">
+                <img class="ava" src="assets/img/Avatar.jpg" alt="my avatar">
+            </div>
+    
+            <div class="contacts" id="contacts">
+                <h3>Contacts:</h3>
+                <ul class="contacts-list">
+                    <li><i class="fas fa-regular fa-location-dot"></i> Kazahstan, Oskemen</li>
+                    <li><i class="fas fa-envelope"></i> kena_m@mail.ru</li>
+                    <li class="ico" id="ico3"><i class="fas fa-phone"></i> +7705 103-93-13</li>
+                </ul>
+                <h3></h3>
+            </div>
+        </aside>
+    
+        <main class="main">
+            <h1>Mukushev Yerken</h1>
+            <h2>Frontend developer (Beginner)</h2>
+            <div class="underline-title"></div>
+            <div class="info-box">
+                <h3 id="summary">Summary</h3>
+                    <p>I worked as a computer bureau manager, geologist, geologist technician, system and network administrator, computer and network technician</p>
+                <h3>A few words</h3>
+                    <p>I am passionate about programming. I am technically minded team player and can easily get along with people.</p>
+                <table id="skills" border="1" bordercolor="grey">
+                    <tr><td><b>Skills</b></td><td><b>In progress</b></td></tr>
+                    <tr><td>HTML</td><td>30%</td></tr>
+                    <tr><td>CSS/Sass</td><td>30%</td></tr>
+                    <tr><td>Javascript</td><td>10%</td></tr>
+                    <tr><td>Git</td><td>20%</td></tr>
+                    <tr><td>React</td><td>0%</td></tr>
+                    <tr><td>Figma</td><td>20%</td></tr>
+                </table>   
+                <h3 id="education">Education:</h3>
+                    <p>In progress</p>
+                <h5>University</h5>
+                    <p><a class="courses-list-color" href="http://www.ektu.kz/">East Kazakhstan State Technical University (2002-2007) as geologist and East Kazakhstan State Technical Universuty (2007-2009) as a bachelor of Informational system</a></p>
+                <h3 id="courses">Courses:</h3>
+                <ul class="courses-list">
+                    <li><a class="courses-list-color" href="https://ru.code-basics.com/languages/html/lessons/html-markup">ru.code-basics.com</a></li>
+                    <li><a class="courses-list-color" href="https://youtu.be/IsZDtOYUWvk">Sorax Введение в CSS</a></li>
+                    <li><a class="courses-list-color" href="https://youtu.be/1X8FNuy32ZM">webDev Основы CSS3. Полный курс</a></li>
+                </ul>
+                <h3 id="english">English</h3>
+                    <p>A1</p>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <div>
+                <a href="https://https://github.com/ErkenM"><img class="github" src="assets/svg/github_icon.svg" alt="github"></a>
+                <p class="main-git">© 2022 ErkenM</p>
+            </div>
+            <a href="https://rs.school/js/"><img class="rs-scoole" src="assets/svg/rs_school_js.svg" alt="rs-scoole"></a>
+        </footer>
+            
+    </body>
